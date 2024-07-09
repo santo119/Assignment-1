@@ -2,6 +2,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    /* background: rgb(255, 255, 255); */
 }
 
 /* banner part style start */
@@ -13,6 +14,7 @@
     background-image: url("assets/Hero-bg.png");
 }
 .banner-image{
+    margin-top: 20px;
     width: 173px;
     height: 228px;
     align-items: center;
@@ -43,4 +45,52 @@ text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 16px;
+}
+/* banner part style ends */
+
+/* web development part style */
+.web-develop{
+width: 900px;
+height: 1100px;
+margin-top: 60px;
+background: rgba(13, 19, 33, 0.02);
+margin: 0 auto;
+}
+.web-title{  
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 20px;
+margin: 40px;
+padding: 20px;
+}
+.card-title p{
+    margin-top: 20px;
+    
+}
+.card-btn{
+    margin-top: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+   padding: 7px;
+
+}
+.card1{
+   display: flex;
+   border-radius: 16px;
+   background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+   width: 800px;
+    height: 280px;
+    padding-left: 40px;
+
+}
+.card-image{
+width: 259.56px;
+height: 217.01px;
+left: 0.36%;
+right: -0.36%;
+top: 1.74%;
+bottom: -1.74%;
+gap: 80px;
 }
