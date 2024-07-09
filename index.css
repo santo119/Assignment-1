@@ -1,0 +1,46 @@
+*{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* banner part style start */
+
+
+.banner{
+    width: 1440px;
+    height: 652px;
+    background-image: url("assets/Hero-bg.png");
+}
+.banner-image{
+    width: 173px;
+    height: 228px;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    padding: 10px;
+    font-style: bold;
+}
+.banner-title h1{
+color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+.banner-title p{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 32px;
+    color: white;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 16px;
+}
