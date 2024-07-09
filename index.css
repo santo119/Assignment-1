@@ -94,3 +94,28 @@ top: 1.74%;
 bottom: -1.74%;
 gap: 80px;
 }
+
+/* inspiration section style */
+
+.video-tag{
+    width: 600px;
+    height: 600px;
+}
+.inspiration{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+   
+
+}
+.inspiration-title{
+    margin-top: 15px;
+    padding: 20px;
+    font-style: bolder;
+}
+.video-controls{
+    width: 700px;
+    height: 550px;
+}
