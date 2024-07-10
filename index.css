@@ -1,4 +1,11 @@
-*{
+   
+   .background-font {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+   *{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -220,9 +227,9 @@ border-radius: 16px;
 background: rgba(13, 19, 33, 0.03);
 margin-top: 40px;
 padding: 20px; 
-/* text-align: center;
+text-align: center;
 align-items: center;
-justify-content: center; */
+justify-content: center;
 }
 
 nav{
@@ -250,6 +257,10 @@ nav li a{
 
     text-decoration: none;
     
+}
+.d-text{
+    font-style: italic;
+    font-weight: 700px;
 }
 
 

@@ -1,0 +1,44 @@
+.developer{
+    width: 1240px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 40px;
+    padding: 20px; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    nav{
+        display: flex;
+        width: 1020px;
+        height: 36px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 40px;
+       
+      
+    }
+    nav ul{
+        display: flex;
+        margin-left: 450px;
+        gap: 20px;
+    }
+    nav ul li{
+        list-style: none;
+        
+    
+    }
+    nav li a{
+    
+        text-decoration: none;
+        
+    }
+    .d-text{
+        font-style: italic;
+        font-weight: 700px;
+    }
+    
+    
